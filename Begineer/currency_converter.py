@@ -1,7 +1,7 @@
 # Python program to convert the currency
 # of one country to that of another country
 # https://fixer.io/quickstart   ,get ur api key here
-# http://data.fixer.io/api/latest?access_key=058de1a6ef7e99c4b3166be180c096ea
+# http://data.fixer.io/api/latest?access_key=058de1a6ef**********************
 # Import the modules needed
 import requests
 
@@ -33,7 +33,7 @@ class Currency_convertor:
 
 # Driver code
 if __name__ == "__main__":
-    YOUR_ACCESS_KEY = '058de1a6ef7e99c4b3166be180c096ea'
+    YOUR_ACCESS_KEY = '058de1a6ef**********************'
     url = str.__add__('http://data.fixer.io/api/latest?access_key=', YOUR_ACCESS_KEY)
     # url = "http://data.fixer.io/api/latest?access_key=" + YOUR_ACCESS_KEY
     # print(url)
