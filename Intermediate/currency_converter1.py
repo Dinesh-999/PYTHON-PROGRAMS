@@ -3,11 +3,11 @@
 # import all functions from the tkinter
 # https://www.geeksforgeeks.org/python-real-time-currency-convertor-using-tkinter/
 
-# Your API key is: LWSCEUGF7EAI3LP0, generate api key using below link
+# Your API key is: LWSCEUG******P0, generate api key using below link
 # https://www.alphavantage.co/support/#api-key   , this link is to generate the api key
 # https://www.alphavantage.co/documentation/#crypto-exchange     , this link shows the examples
 # main url should look like below
-# https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=INR&to_currency=USD&apikey=LWSCEUGF7EAI3LP0
+# https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=INR&to_currency=USD&apikey=LWSCEUG******P0
 
 from tkinter import *
 
@@ -34,7 +34,7 @@ def RealTimeCurrencyConversion():
     to_currency = variable2.get()
 
     # enter your api key here
-    api_key = "9FB87NF2NCKCA94A"
+    api_key = "LWSCEUG******P0"
 
     # base_url variable store base url
     base_url = r"https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE"
